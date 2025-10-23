@@ -2,7 +2,7 @@
 
 namespace AbuseIO\Parsers;
 
-use Composer\Autoload\ClassMapGenerator;
+use Composer\ClassMapGenerator\ClassMapGenerator;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Arr;
 
