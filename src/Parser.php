@@ -3,9 +3,9 @@
 namespace AbuseIO\Parsers;
 
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
 use ReflectionClass;
-use Uuid;
 use Log;
 
 /**
@@ -179,7 +179,7 @@ class Parser
      */
     protected function createWorkingDir()
     {
-        $uuid = Uuid::generate(4);
+        $uuid = (string) Str::uuid();
         $this->tempPath = "/tmp/abuseio-{$uuid}/";
         $this->fs = new Filesystem;
 
