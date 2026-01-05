@@ -1,7 +1,6 @@
 {
     "name": "monovm/parser-common",
     "description": "Parser common helper package",
-    "version": "5.0.1",
     "keywords": ["laravel", "abuseio", "parser"],
     "homepage": "http://abuse.io",
     "type": "library",
