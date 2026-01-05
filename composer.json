@@ -1,5 +1,5 @@
 {
-    "name": "abuseio/parser-common",
+    "name": "monovm/parser-common",
     "description": "Parser common helper package",
     "version": "5.0.1",
     "keywords": ["laravel", "abuseio", "parser"],
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AbuseIO\\Parser\\Factory\\": "src/"
+            "AbuseIO\\Parsers\\": "src/"
         }
     }
 }
